@@ -1,5 +1,6 @@
 module.exports = {
     future: {
-        webpack5: true,
+        // This line fixes the problem:
+        //webpack5: true,
     },
 };
